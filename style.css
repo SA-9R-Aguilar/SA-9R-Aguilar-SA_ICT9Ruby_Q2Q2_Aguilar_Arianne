@@ -1,0 +1,42 @@
+body {
+            background-image: url('https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY-1200-80.jpg'); /* Correct syntax */
+            background-size: cover; /* Ensure the image covers the entire background */
+            background-repeat: repeat-y; /* Prevent tiling */
+            background-position: center; /* Center the image */
+            font-family: 'Dongle';
+        }
+
+.header {
+    background-color: #ee82ee ;
+    color: black ;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.content {
+    padding: 20px;
+    background-color: #ff9595 ; 
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 1px #e8005e;
+    opacity: 0.9; /* Slight transparency */
+}
+
+h1 {
+    animation: tada;
+    animation-duration: 4s;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+}
+
+.footer {
+    font-size: 9px;
+}
+
